@@ -6,6 +6,55 @@
     box-sizing: border-box;
 }
 
+.header-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #8e8fdf;
+
+
+}
+.image{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.image img{
+    width: 80%;
+    height: auto;
+}
+
+.header-title{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: -3.8rem;
+
+}
+
+.header-title img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+    
+}
 .main-container{
     width: 80%;
     height: auto;
@@ -17,21 +66,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 15rem 3rem 15rem 3rem;
 }
 
 
 .form-container{
     background-color: #ffff;
-    width: 90%;
+    width: 60%;
     height: auto;
-    padding: 5rem 10rem 5rem 10rem;
+   
     border: none;
     outline: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 2rem;
+    row-gap: 4rem;
 
     
 }
@@ -44,7 +94,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    row-gap: 2rem;
+    row-gap: 3rem;
 }
 
 .first-child-top{
@@ -54,7 +104,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    row-gap: 3rem;
+    row-gap: 1.8rem;
 }
 
 .logo{
@@ -70,6 +120,15 @@
 .header{
     width: fit-content;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h2{
+    width: 100%;
+    height: auto;
 }
 
 .second-child-top{
@@ -79,7 +138,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 1.2rem;
+    row-gap: 2rem;
 }
 
 .email-group{
@@ -89,14 +148,15 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    row-gap: 0.3rem;
+    row-gap: 0.4rem;
+    color: rgb(89, 87, 87);
     
 }
 
 .email-group input{
     width: 100%;
     height: auto;
-    padding: 0.5rem 0.3rem 0.5rem 1rem;
+    padding: 0.5rem 0.6rem 0.5rem 1rem;
     border: 0.5px solid;
     border-color: grey;
     border-radius: 0.5rem;
@@ -110,13 +170,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 0.3rem;
+    row-gap: 0.4rem;
+    color: rgb(89, 87, 87);
 }
 
 .password-input input{
     width: 100%;
     height: auto;
-    padding: 0.5rem 0.3rem 0.5rem 1rem;
+    padding: 0.5rem 0.6rem 0.5rem 1rem;
     border: 0.5px solid;
     border-color: grey;
     border-radius: 0.5rem;
@@ -136,7 +197,7 @@
     width: fit-content;
     height: auto;
     text-decoration: none;
-    color: #7678ed;
+    color: #3d3fc0;
 }
 
 .lower-form{
@@ -144,7 +205,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     row-gap: 2rem;
     
@@ -159,13 +220,17 @@
 .button button{
     width: fit-content;
     height: auto;
-    padding: 0.5rem 11.3rem 0.5rem 11.3rem; 
+    padding: 0.5rem 10.5rem 0.5rem 10.5rem; 
     border: none; 
     outline: none;
     border-radius: 0.5rem;
     color: #ffff;
     background-color: #3d3fc0;
+    cursor: pointer;
+}
 
+.button button:hover{
+    background-color: #6264de;
 }
 
 .footer-container{
@@ -177,6 +242,12 @@
     align-items: center;
     column-gap: 0.3rem;
 
+}
+
+.footer-container p{
+    width: fit-content;
+    height: auto;
+    color: rgb(95, 93, 93);
 }
 
 .footer-container a{
